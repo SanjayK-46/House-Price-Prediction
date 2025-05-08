@@ -1,5 +1,43 @@
-### Description:
-This repository contains a comprehensive analysis of house sale prices using decision tree models. The aim is to predict house sale prices accurately while understanding regional differences in real estate values. The analysis explores various predictor variables such as the number of bedrooms, bathrooms, square footage, and age of the house. Through exploratory data analysis, feature engineering, and model development, actionable insights are provided for buyers, sellers, and real estate professionals to make informed decisions in the housing market. Additionally, insights into the importance of location, property size, age, and other factors are highlighted to guide investment strategies and enhance understanding of regional real estate trends.
+# 🏡 House Price Prediction using Decision Tree Regressor
 
-## Report
-[House Price Prediction_Decision Tree Model.pdf](https://github.com/srimallipudi/House-Price-Prediction-Using-Decision-Tree-ML-Algorithm/files/14793724/House.Price.Prediction_Decision.Tree.Model.pdf)
+![decision-tree](https://img.shields.io/badge/Model-DecisionTree-blueviolet) ![Python](https://img.shields.io/badge/Made%20With-Python-3776AB?logo=python) ![License](https://img.shields.io/badge/License-MIT-green)
+
+Predict housing prices accurately using a Decision Tree Regressor based on factors like square footage, location, and property type. This project includes **data preprocessing, model training, hyperparameter tuning**, and beautiful **visualizations** for insight.
+
+---
+
+## 📌 Project Overview
+
+🎯 **Goal**: Build a regression model to predict house prices using decision trees.
+
+📊 **Dataset**: Contains features like:
+- 🛏️ Number of Bedrooms
+- 🛁 Bathrooms
+- 📐 Square Footage
+- 🧱 Age of the House
+- 🏘️ Type & Location
+
+🛠️ **Tech Stack**:
+- Python 🐍
+- Scikit-learn
+- Pandas & NumPy
+- Matplotlib & Seaborn
+
+---
+
+## 🔍 Key Features
+
+- ✅ Data Cleaning & EDA
+- 🌐 One-Hot Encoding for Categorical Features
+- 📏 Feature Scaling (StandardScaler)
+- 🌲 Decision Tree Regression
+- 🔧 Hyperparameter Tuning with GridSearchCV
+- 📉 Evaluation with R² & MSE
+- 🌟 Feature Importance Visualization
+- 🌳 Tree Plot Visualization
+
+---
+
+## 🗃️ Dataset
+
+Make sure the dataset is named:
