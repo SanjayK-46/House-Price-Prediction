@@ -1,43 +1,47 @@
-# 🏡 House Price Prediction using Decision Tree Regressor
+# 🏡 House Price Prediction using Machine Learning
 
-![decision-tree](https://img.shields.io/badge/Model-DecisionTree-blueviolet) ![Python](https://img.shields.io/badge/Made%20With-Python-3776AB?logo=python) ![License](https://img.shields.io/badge/License-MIT-green)
-
-Predict housing prices accurately using a Decision Tree Regressor based on factors like square footage, location, and property type. This project includes **data preprocessing, model training, hyperparameter tuning**, and beautiful **visualizations** for insight.
+This project predicts house prices using machine learning algorithms with a focus on **Decision Tree Regression**. The notebook walks through data preprocessing, exploratory data analysis, model training, and evaluation. This is part of the **Naan Mudhalvan Data Science Program**.
 
 ---
 
-## 📌 Project Overview
+## 📁 Files
 
-🎯 **Goal**: Build a regression model to predict house prices using decision trees.
+- `House_pricing (1).ipynb` - Jupyter Notebook containing the full implementation.
+- (Optional) `requirements.txt` - List of required Python libraries.
+- (Optional) `data/` - Folder containing the dataset (CSV format).
 
-📊 **Dataset**: Contains features like:
-- 🛏️ Number of Bedrooms
-- 🛁 Bathrooms
-- 📐 Square Footage
-- 🧱 Age of the House
-- 🏘️ Type & Location
+---
 
-🛠️ **Tech Stack**:
-- Python 🐍
+## 🚀 Features
+
+- Clean and preprocess real-world housing data.
+- Perform Exploratory Data Analysis (EDA).
+- Train a Decision Tree Regression model.
+- Evaluate the model using R² Score, MAE, and RMSE.
+- Visualize feature relationships and prediction accuracy.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
 - Scikit-learn
-- Pandas & NumPy
-- Matplotlib & Seaborn
+- Matplotlib
+- Seaborn
 
 ---
 
-## 🔍 Key Features
+## 📊 Sample Workflow
 
-- ✅ Data Cleaning & EDA
-- 🌐 One-Hot Encoding for Categorical Features
-- 📏 Feature Scaling (StandardScaler)
-- 🌲 Decision Tree Regression
-- 🔧 Hyperparameter Tuning with GridSearchCV
-- 📉 Evaluation with R² & MSE
-- 🌟 Feature Importance Visualization
-- 🌳 Tree Plot Visualization
+1. Load dataset
+2. Clean missing values
+3. Visualize correlations and distributions
+4. Train/test split
+5. Apply Decision Tree Regression
+6. Evaluate performance with metrics and plots
 
 ---
 
-## 🗃️ Dataset
-
-Make sure the dataset is named:
