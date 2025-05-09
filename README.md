@@ -6,7 +6,7 @@ This project predicts house prices using machine learning algorithms with a focu
 
 ## 📁 Files
 
-- `House_pricing (1).ipynb` - Jupyter Notebook containing the full implementation.
+- `House_pricing.ipynb` - Jupyter Notebook containing the full implementation.
 - (Optional) `requirements.txt` - List of required Python libraries.
 - (Optional) `data/` - Folder containing the dataset (CSV format).
 
