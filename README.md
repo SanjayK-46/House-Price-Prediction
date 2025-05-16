@@ -1,47 +1,63 @@
-# 🏡 House Price Prediction using Machine Learning
+# 🏠 House Price Prediction using Machine Learning
 
-This project predicts house prices using machine learning algorithms with a focus on **Decision Tree Regression**. The notebook walks through data preprocessing, exploratory data analysis, model training, and evaluation. This is part of the **Naan Mudhalvan Data Science Program**.
-
----
-
-## 📁 Files
-
-- `House_pricing.ipynb` - Jupyter Notebook containing the full implementation.
-- (Optional) `requirements.txt` - List of required Python libraries.
-- (Optional) `data/` - Folder containing the dataset (CSV format).
+Predict housing prices based on various factors such as location, number of rooms, and land area using regression techniques. This project is developed as part of the **Naan Mudhalvan - Phase 3 Data Science Track**.
 
 ---
 
-## 🚀 Features
+## 📌 Problem Statement
 
-- Clean and preprocess real-world housing data.
-- Perform Exploratory Data Analysis (EDA).
-- Train a Decision Tree Regression model.
-- Evaluate the model using R² Score, MAE, and RMSE.
-- Visualize feature relationships and prediction accuracy.
+House price prediction is a classic regression problem where the goal is to estimate property prices based on various input features. Accurate price prediction can assist buyers, sellers, and financial institutions in decision-making processes.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Project Objectives
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
+- Predict the price of a house using regression models.
+- Understand the most influential factors affecting house prices.
+- Build, evaluate, and deploy the best-performing model using a Streamlit web application.
 
 ---
 
-## 📊 Sample Workflow
+## 🔄 Workflow
 
-1. Load dataset
-2. Clean missing values
-3. Visualize correlations and distributions
-4. Train/test split
-5. Apply Decision Tree Regression
-6. Evaluate performance with metrics and plots
+1. Data Collection
+2. Data Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature Engineering
+5. Model Building (Linear Regression, Decision Tree, Random Forest)
+6. Model Evaluation (RMSE, R² Score)
+7. Model Deployment (Streamlit Cloud)
+
+---
+
+## 🧠 Machine Learning Models Used
+
+- Decision Tree Regressor ✅ *(Best Performing)*
+
+## 🛠️ Tech Stack
+
+- **Language:** Python 3.11.12
+- **Tools & Libraries:** 
+  - pandas, numpy
+  - matplotlib, seaborn
+  - scikit-learn
+  - streamlit
+- **IDE:** Google Colab
+- **Deployment:** Streamlit Cloud
+
+---
+
+## 📈 Evaluation Metrics
+
+- Root Mean Squared Error (RMSE)
+- R² Score
+- Visuals: Prediction vs Actual Plot, Residuals
+
+---
+
+## 🌐 Web App
+
+🚀 **Live Demo:** https://2b68-34-23-183-40.ngrok-free.app/
 
 ---
 
